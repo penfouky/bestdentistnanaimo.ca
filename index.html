@@ -1481,6 +1481,7 @@
         <li><strong>Key service:</strong> Nanaimo dentist comparison, preventive care, family dentistry, emergency appointments, and Invisalign consultations</li>
         <li><strong>Network:</strong> Part of the <a href="https://vanislesmiles.ca/">Van Isle Smiles dental network</a> on Vancouver Island.</li>
         <li><strong>Book appointment:</strong> <a href="https://nanaimosmiles.com/">Book with Nanaimo Smiles</a></li>
+        <li><strong>Ladysmith location:</strong> <a href="https://ladysmithsmiles.com/">Book with Ladysmith Smiles</a> or call <a href="tel:+12502458558">(250) 245-8558</a></li>
       </ul>
     </section>
 
@@ -2222,7 +2223,7 @@
                 </select>
               </form>
               <div class="insurance-result" id="insurance-result" aria-live="polite">
-                Ask Nanaimo Smiles whether your plan can be billed directly. Contact the clinic at (250) 591-6000 to verify coverage before treatment.
+                Ask Nanaimo Smiles or Ladysmith Smiles whether your plan can be billed directly. Contact your preferred clinic to verify coverage before treatment.
               </div>
               <p class="resource-note">For no-insurance patients, ask about payment plans, staged care, and Canadian Dental Care Plan eligibility before treatment begins.</p>
             </div>
@@ -2418,9 +2419,10 @@
     </section>
 
     <aside class="sticky-cta" aria-label="Book an appointment">
-        <strong>Ready to speak with Nanaimo Smiles?</strong>
-        <a class="resource-button" href="#appointment-request">Book an Appointment</a>
-        <a class="phone-link" href="tel:+12505916000">(250) 591-6000</a>
+        <strong>Ready to speak with Van Isle Smiles?</strong>
+        <a class="resource-button" href="#appointment-request">Request Appointment</a>
+        <a class="phone-link" href="tel:+12505916000">Nanaimo: (250) 591-6000</a>
+        <a class="phone-link" href="tel:+12502458558">Ladysmith: (250) 245-8558</a>
     </aside>
 
     <section class="content-section intro-section reveal">
@@ -2684,11 +2686,11 @@
     }
 
     if (providerSelect.value === "No Insurance") {
-      result.textContent = "Ask Nanaimo Smiles about current payment options and Canadian Dental Care Plan eligibility. Call (250) 591-6000 before treatment.";
+      result.textContent = "Ask Nanaimo Smiles or Ladysmith Smiles about current payment options and Canadian Dental Care Plan eligibility before treatment.";
       return;
     }
 
-    result.textContent = "Ask Nanaimo Smiles whether " + providerSelect.value + " can be billed directly. Contact the clinic at (250) 591-6000 to verify coverage before treatment.";
+    result.textContent = "Ask Nanaimo Smiles or Ladysmith Smiles whether " + providerSelect.value + " can be billed directly. Contact your preferred clinic to verify coverage before treatment.";
   }
 
   function initResourceTools() {
